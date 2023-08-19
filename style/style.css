@@ -1,19 +1,25 @@
-ul {
-    list-style: none;
-}
 
 a {
     text-decoration: none;
 }
 
+body {
+    font-family: Roboto, sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+.list {
+    list-style: none;
+}
+
 .logo-web {
     color: #4D5AE5;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
-    font-style: normal;
     font-weight: 800;
-    line-height: 21px;
-    letter-spacing: 0.54px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;}
 
 .logo-studio {
@@ -32,10 +38,16 @@ a {
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.32px;
-}
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}:hover,
+&:focus{
+    color: #404bbf
+}     
 
+.adress{
+    font-style: normal;
+}
 .adress-link{
     color: #434455;
         font-family: Roboto;
@@ -44,7 +56,11 @@ a {
         font-weight: 400;
         line-height: 24px;
         letter-spacing: 0.32px;
+}:hover,
+&:focus {
+    color: #404bbf
 }
+
 .hero {
     height: 600px;
     flex-shrink: 0;
@@ -53,12 +69,13 @@ a {
 
 .hero-text {
     color: var(--white, #FFF);
-        font-family: Roboto;
-        font-size: 56px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 60px;
-        letter-spacing: 1.12px;
+    font-family: Roboto;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+    text-align: center;
 }
 
 .hero-button{
@@ -66,15 +83,19 @@ a {
     outline: none;
     padding: 16px 32px;
     border-radius: 4px;
-    background-color:#4D5AE5;
+    background-color:var(--iris, #4D5AE5);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     color:#FFF;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.64px;
+    cursor: pointer;
+}:hover,
+&:focus {
+    color: #404bbf
 }
 
 .title {
@@ -84,7 +105,7 @@ a {
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
@@ -163,6 +184,7 @@ footer{
     line-height: 24px;
     letter-spacing: 0.32px;
 }
+
 .logo-footer{
     color: var(--cloud, #F4F4FD);
     font-family: Raleway;
@@ -184,7 +206,7 @@ footer{
     background-color: var(--cloud, #F4F4FD);
     color: var(--iris, #4D5AE5);
     text-align: center;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
