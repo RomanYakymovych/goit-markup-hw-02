@@ -132,8 +132,7 @@ body {
 
 /* Examples */
 
-.examples-title,
-.team-title {
+.examples-title{
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -143,6 +142,14 @@ body {
 }
 
 /* Team */
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
 
 .team {
   background-color: var(--background-color);
@@ -177,8 +184,8 @@ body {
 /* portfolio.html */
 
 .secondary-button {
-  background-color: var(--accent-text-color);
-  color: var(--background-color);
+  background-color: var(--background-color);
+  color: var(--accent-color);
 }
 
 .secondary-button:hover,
