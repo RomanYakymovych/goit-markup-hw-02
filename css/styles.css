@@ -29,14 +29,6 @@ body {
   list-style: none;
 }
 
-.features-title {
-  color: var(--title-text-color);
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  text-align: center;
-  letter-spacing: 0.02em;
-}
 
 .title {
   color: var(--title-text-color);
@@ -137,6 +129,22 @@ body {
   letter-spacing: 0.32px;
   color: var(--primary-text-color);
 }
+
+.features-title {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.features-list-title{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
 
 /* Examples */
 
