@@ -121,7 +121,6 @@ body {
 }
 
 .exemples-text{
-  width: 264px;
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
@@ -158,7 +157,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  
+
 }
 
 /* Footer */
@@ -168,18 +167,18 @@ body {
 }
 
 .footer-text {
-  color: var(--accent-text-color);
+  color: var(--background-color);
 }
 
 .decorarion-footer {
-  color: var(--white-color);
+  color: var(--background-color);
 }
 
 /* portfolio.html */
 
 .secondary-button {
   background-color: var(--accent-text-color);
-  color: var(--accent-color);
+  color: var(--background-color);
 }
 
 .secondary-button:hover,
@@ -188,14 +187,11 @@ body {
   color: var(--white-color);
 }
 
-.portfolio-list-link {
-  text-decoration: none;
-}
-
 .portfolio-item-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em
 }
 
 .portfolio-item-text {
