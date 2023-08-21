@@ -29,7 +29,6 @@ body {
   list-style: none;
 }
 
-
 .title {
   color: var(--title-text-color);
   font-weight: 500;
@@ -120,16 +119,6 @@ body {
 }
 
 /* Feachures */
-.exemples-text{
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
-  color: var(--primary-text-color);
-}
-
 .features-title {
   color: var(--title-text-color);
   font-weight: 500;
@@ -147,6 +136,15 @@ body {
   letter-spacing: 0.02em;
 }
 
+.exemples-text{
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  color: var(--primary-text-color);
+}
 
 /* Examples */
 
